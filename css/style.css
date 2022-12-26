@@ -1,0 +1,226 @@
+@font-face {
+    font-family: fontpokedex;
+    src: url(/css/font/Pokemon\ X\ and\ Y.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fontpokedex;
+}
+
+body {
+  background-image: url(/images/lab.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  margin-top: 4%;
+  position: relative;
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 890px;
+}
+
+.pokemonimagem {
+  /*fazer em porcentagem para não sair de enquadro*/
+  position: absolute;
+  width: 12%;
+  bottom: 41%;
+  right: 64.3%;
+}
+
+.nomepokemon {
+  font-family: fontpokedex;
+  position: absolute;
+  bottom: 56.6%;
+  right: 16.4%;
+  font-size: 70%;
+  text-transform: uppercase;
+}
+
+.hp {
+  position: absolute;
+  font-size: 60%;
+  bottom: 21.4%;
+  right: 71.5%;
+  text-transform: uppercase;
+}
+
+.hpdesc {
+  position: absolute;
+  font-size: 60%;
+  bottom: 21.4%;
+  right: 77.1%;
+  text-transform: uppercase;
+}
+
+.tipo1 {
+  position: absolute;
+  font-size: 55%;
+  bottom: 17.5%;
+  right: 65.8%;
+  text-transform: uppercase;
+}
+
+.tipo1desc{
+  position: absolute;
+  font-size: 55%;
+  bottom: 17.5%;
+  right: 75.7%;
+  text-transform: uppercase;
+}
+
+.habilidade {
+  position: absolute;
+  font-size: 40%;
+  bottom: 14.2%;
+  right: 66%;
+  text-transform: uppercase;
+}
+
+.abtdesc {
+  position: absolute;
+  font-size: 40%;
+  bottom: 14.2%;
+  right: 75.4%;
+  text-transform: uppercase;
+}
+
+.ataquedesc {
+  position: absolute;
+  bottom: 44%;
+  font-size: 55%;
+  right: 40%;
+}
+
+.ataque {
+  position: absolute;
+  bottom: 38.3%;
+  font-size: 55%;
+  right: 40%;
+}
+
+.defesadesc {
+  position: absolute;
+  bottom: 44%;
+  font-size: 55%;
+  right: 34.2%;
+}
+
+.defesa {
+  position: absolute;
+  bottom: 38.3%;
+  font-size: 55%;
+  right: 34.4%;
+}
+
+.s-ataquedesc {
+  position: absolute;
+  bottom: 44.1%;
+  font-size: 50%;
+  right: 28.2%;
+}
+
+.s-ataque {
+  position: absolute;
+  bottom: 38.3%;
+  font-size: 55%;
+  right: 28.9%;
+}
+
+.s-defesadesc {
+  position: absolute;
+  bottom: 44.1%;
+  font-size: 50%;
+  right: 22.5%;
+}
+.s-defesa {
+  position: absolute;
+  bottom: 38.3%;
+  font-size: 55%;
+  right: 23.35%;
+}
+
+.speeddesc {
+  position: absolute;
+  bottom: 44.3%;
+  font-size: 46%;
+  right: 17%;
+}
+
+.speed {
+  position: absolute;
+  bottom: 38.3%;
+  font-size: 55%;
+  right: 17.8%;
+}
+
+.bxpdesc {
+  position: absolute;
+  font-size: 38%;
+  bottom: 27.8%;
+  right: 41%;
+}
+
+.bxp {
+position: absolute;
+font-size: 50%;
+bottom: 27.2%;
+right: 36.7%;
+}
+
+
+h1{
+  font-family: fontpokedex;
+}
+
+.nupokemon {
+  position: absolute;
+  right: 39.5%;
+  bottom: 56.5%;
+  font-size: 76%;
+}
+
+form {
+  position: absolute;
+  width: 100%;
+  top: 62.5%;
+  right: 20.9%;
+}
+
+input {
+  width: 27.1%;
+  padding: 0.4%;
+  background-color: #65a970;
+  outline: none;
+  font-size: 100%;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 16.2%;
+  left: 55%;
+  display: flex;
+  gap: 8.4%;
+  width: 50%;
+}
+
+.button {
+  width: 25%;
+  background-color: #17232f;
+  border: 5% solid black;
+  outline: none;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-family: fontpokedex;
+  cursor: pointer;
+}
